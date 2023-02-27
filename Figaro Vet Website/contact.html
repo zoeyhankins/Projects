@@ -1,0 +1,53 @@
+<!-- Zoey Hankins - CIS 205 Intro to WD - Fall 2021-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Figaro Cat Clinic Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rev="section" rel="stylesheet" href="catclinic.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Figaro Cat Clinic</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="askvet.html">Ask the Vet</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Contact Figaro Cat Clinic</h2>
+      <form action="http://cis205.cis.sc4.edu/scripts/contactclinic.php"
+      method="post">
+        <label for="myName">Name:</label>
+        <input type="text" id="myName" name="myName">
+
+        <label for="myEmail">Email:</label>
+        <input type="text" id="myEmail" name="myEmail">
+
+        <label for="currentClient">Current Clicent?</label>
+        <input type="checkbox"  id="currentClient" name="currentClient">
+        <br>
+        <label for="myQuestions">Questions:</label>
+        <textarea id="myQuestions" name="myQuestions" rows="2" cols="20"></textarea>
+
+        <input type="button" name="mySubmit" id="mySubmit" value="Submit">
+
+      </form>
+    </main>
+    <footer>
+      Copyright &copy; 2021 Figaro Cat Clinic<br>
+      <a href="mailto:zhankins@student.sc4.edu">Zoey Hankins</a>
+    </footer>
+  </div>
+</body>
+
+</html>
