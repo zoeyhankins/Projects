@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Pick5Cards
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=pane
+comment2.target=void\ getCards(javafx.scene.layout.HBox)
+comment2.text=Returns\ a\ list\ with\ numbers\ 1-52\ stored\ in\ random\ order
+numComments=3
