@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=
+comment2.target=boolean\ isFull()
+comment2.text=Determine\ if\ the\ cell\ are\ all\ occupied
+comment3.params=token
+comment3.target=boolean\ isWon(char)
+comment3.text=Determine\ if\ the\ player\ with\ the\ specified\ token\ wins
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ The\ main\ method\ is\ only\ needed\ for\ IDEs\ with\ limited\r\n\ JavaFX\ support.\ It\ is\ not\ needed\ for\ running\ from\ the\ command\ line.\r\n
+numComments=5
