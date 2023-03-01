@@ -1,0 +1,76 @@
+<!--Zoey Hankins - Finished December 5th 2021-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rev="index" rel="stylesheet" href="plaza.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Contact Us.</h1>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Welcome!</a></li>
+        <li><a href="dining.html">Dining</a></li>
+        <li><a href="shopping.html">Shopping</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p id="tsent">If you have any concerns or comments about the website or content, feel free to contact me.</p>
+      <hr class="dotted">
+      <div class="formcontainer">
+        <form action="action_page.php" method="post">
+          <div class="formrow">
+            <div class="formcol-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="formcol-75">
+              <input type="text" id="fname" name="firstname" placeholder="First...">
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="formcol-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="formcol-75">
+              <input type="text" id="lname" name="lastname" placeholder="Last...">
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="formcol-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="formcol-75">
+              <textarea id="subject" name="Subject" placeholder="Write anything..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="formrow">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <div id="footer">
+    <footer>
+      Copyright &copy; 2021<br>
+      <a href="mailto:zoeymadisonnn@gmail.com">Zoey Hankins</a>
+    </footer>
+  </div>
+</body>
+
+</html>
